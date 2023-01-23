@@ -2,7 +2,6 @@ using Distributed
 using TensorOperations,SharedArrays
 using Base.Threads
 using PyCall
-using IterTools
 using Einsum,LinearAlgebra,LoopVectorization
 using DependencyWalker, LibSSH2_jll
 using HDF5
