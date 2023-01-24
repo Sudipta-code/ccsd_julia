@@ -51,7 +51,7 @@ function build_temp(t1,nocc,nvir,Lovdf,Lvvdf,tau)
                     temp[a,b] -= t1[k,a]*Lov_T120[k,c,t]*tau_ij_[c,d]*Lvvdf[t,b,d]
                     temp[a,b] += Lvvdf[t,a,c]*tau_ij_[c,d]*Lvvdf[t,b,d]
                 end
-                #t2new[i,j,:,:] += temp
+                t2new[i,j,:,:] += temp
             end
         end
     end #sync
