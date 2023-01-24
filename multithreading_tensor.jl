@@ -88,7 +88,7 @@ function build_temp_serial(t1,nocc,nvir,Lovdf,Lvvdf,tau)
     temp
 end
 
-#temp_final = build_temp(t1,nocc,nvir,Lovdf,Lvvdf,tau)
+temp_final = build_temp(t1,nocc,nvir,Lovdf,Lvvdf,tau)
 temp = build_temp_serial(t1,nocc,nvir,Lovdf,Lvvdf,tau)
 
 
