@@ -32,7 +32,7 @@ nocc,nvir = size(t1)
 #temp = zeros(nvir,nvir)
 
 
-function build_temp(t1,nocc,nvir,Lovdf,Lvvdf,tau,t2new)
+function build_temp(t1,nocc,nvir,Lovdf,Lvvdf,tau)
     tempf = zeros(nvir,nvir)
     Lov_T120 = permutedims(Lovdf,(2,3,1))
     #t2new_temp = Array{Float64,4}(undef,(nocc,nocc,nvir,nvir))
